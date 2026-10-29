@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Library book borrowing</title>
+<limk rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<h1>Library book borrowing</h1>
+<form id="studentform">
+
+<label>student name:</label>
+<input type="text" id="studentname" required>
+
+<label>booktitle</title>
+<input type="text" id="book" required>
+<br><br>
+
+<label>Age</title>
+<input type="number" id="Age" required>
+<br><br>
+
+<br><br>
+<button onelick="addbook()">Add book</button>
+<button onelick="confirmborrow()">Add book</button>
+
+</form>
+<br>
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
